@@ -1,0 +1,55 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+#rollButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  font-size: large;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #F3EDC8;
+  color: #141E46;
+  border: 2px solid #141E46;
+  cursor: pointer;
+}
+
+body {
+  background-color: #FFF5E0;
+}
+
+h2 {
+  margin: 30px;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 4rem;
+  color: #141E46;
+}
+
+p {
+  font-size: 2rem;
+  color: #141E46;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #141E46;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
