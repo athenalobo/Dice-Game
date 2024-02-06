@@ -53,3 +53,15 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+@keyframes rollDice {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(180deg); }
+  50% { transform: rotate(360deg); }
+  75% { transform: rotate(540deg); }
+  100% { transform: rotate(720deg); }
+}
+
+.rolling {
+  animation: rollDice 0.5s ease-out;
+}
