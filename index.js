@@ -7,8 +7,8 @@ rollButton.addEventListener('click', function () {
     randomNumber1 = Math.ceil(Math.random() * 6);
     randomNumber2 = Math.ceil(Math.random() * 6);
 
-    document.querySelector(".img1").setAttribute("src", "./images/dice" + randomNumber1 + ".png");
-    document.querySelector(".img2").setAttribute("src", "./images/dice" + randomNumber2 + ".png");
+    document.getElementById("dice1").setAttribute("src", "./images/dice" + randomNumber1 + ".png");
+    document.getElementById("dice2").setAttribute("src", "./images/dice" + randomNumber2 + ".png");
 
     if (randomNumber1 > randomNumber2)
         resultTitle = 'Player 1 wins!';
@@ -18,9 +18,9 @@ rollButton.addEventListener('click', function () {
         resultTitle = 'It\'s a draw! Roll again.';
 
     
-    document.querySelector("h2").textContent = resultTitle;
+    document.getElementById("heading").textContent = resultTitle;
 });
 
-document.querySelector(".img1").setAttribute("src", "./images/dice" + randomNumber1 + ".png");
-document.querySelector(".img2").setAttribute("src", "./images/dice" + randomNumber2 + ".png");
-document.querySelector("h2").textContent = resultTitle;
+document.getElementById("dice1").setAttribute("src", "./images/dice" + randomNumber1 + ".png");
+document.getElementById("dice2").setAttribute("src", "./images/dice" + randomNumber2 + ".png");
+document.getElementById("heading").textContent = resultTitle;
